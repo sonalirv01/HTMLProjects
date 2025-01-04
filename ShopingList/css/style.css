@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background: #05226a;
+    color: #fff;
+  }
+  
+  /* Input Area */
+  .input-area {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #add-btn {
+    background: #6a11cb;
+    color: #fff;
+  }
+  
+  #clear-btn {
+    background: #e74c3c;
+    color: #fff;
+  }
+  
+  /* List Area */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  li span {
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+  }
+  
+  .footer a {
+    color: #6a11cb;
+    text-decoration: none;
+  }
+  
